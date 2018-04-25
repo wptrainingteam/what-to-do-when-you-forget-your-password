@@ -31,10 +31,10 @@ You will be better equipped to work through this lesson if you have experience i
 
 ### Step One
 
-By default, you can login to a WordPress site by going to the /wp-login.php path.  For example, if we forgot our password to the WordPress Support Forums, we could go to [https://login.wordpress.org/wp-login.php](https://login.wordpress.org/wp-login.php). 
+By default, you can login to a WordPress site by going to the ```/wp-login.php``` path.  For example, if we forgot our password to the WordPress Support Forums, we could go to [https://login.wordpress.org/wp-login.php](https://login.wordpress.org/wp-login.php). 
 
 1. Go to your WordPress site.  
-2. Add /wp-login.php to the end of the site URL and press enter.  You will be taken to the login page, which looks like this: 
+2. Add ```/wp-login.php``` to the end of the site URL and press enter.  You will be taken to the login page, which looks like this: 
 
 ![WordPress Login](images/login.png)
 
@@ -101,7 +101,7 @@ It is a good idea to be able to reset your password before you need to do so. �
 A.  /wp-login.com 
 B.  wp-login.php 
 C.  /wp-login.php 
-D.  /login.php```
+D.  /login.php
 ```
 2. A "nonce" is: 
 
@@ -114,6 +114,6 @@ D. Photo square in the upper right hand corner of your site
 ## Answers
 
 ```
-1. "C" - /wp-login.php 
-2. "B" - A single-use password generator link
+Question 1: "C" - /wp-login.php 
+Question 2: "B" - A single-use password generator link
 ```

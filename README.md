@@ -124,19 +124,17 @@ What could present challenges to delivering this lesson? Is there anything that 
 > By default, you can login to a WordPress site by going to the `/wp-login.php` path. For example, if we forgot our password to the WordPress Support Forums, we could go to [https://login.wordpress.org/wp-login.php](https://login.wordpress.org/wp-login.php). 
 
 1. Go to your WordPress site.  
-2. Add `/wp-login.php` to the end of the site URL and press enter.  You will be taken to the login page, which looks like this:
+2. Add ```/wp-login.php``` to the end of the site URL and press enter. You will be taken to the login page, which looks like this: 
 
 ![WordPress Login](images/login.png)
 
 ### Initiate the Password Reset Email
 
-* At the bottom of the page, there is a link titled "Lost your password?" Click the "Lost your password?" link.
- * You will be taken to a new page, which looks like this:
+1. At the bottom of the page, there is a link titled "Lost your password?". Click the "Lost your password?" link. You will be taken to a new page, which looks like this: 
 
 ![WordPress Forgotten Password Page](images/lostpw.png)
 
-*  Enter your user name or email address. It is easiest to specify your email address in order to know which email account to check for the password reset email.
-  * Click the "Get New Password" button after entering your email address.
+2. Enter your user name or email address. It is easiest to specify your email address in order to know which email account to check for the password reset email. Click the "Get New Password" button after entering your email address.
 
 #### If Something Went Wrong
 
@@ -161,7 +159,7 @@ This email includes your username. *Please take note of the user name in the em
 
 ### Use the Link in the Password Reset Email to Reset the Password
 
-* Click the link at the bottom of your email. You will be taken to this page:
+Click the link at the bottom of your email. You will be taken to this page: 
 
 ![Password Reset Page](images/newpw.png)  
 
@@ -169,16 +167,18 @@ Here, you will set a new password. After deciding on a new password and entering
 
 ### Confirm the New Password
 
-> After resetting your password, it is a good idea to double check that it works.  Hover over the photo square in the upper right hand corner of your screen and click on "Log Out" when the menu appears.
+After resetting your password, it is a good idea to double check that it works. Hover over the photo square in the upper right hand corner of your screen and click on "Log Out" when the menu appears.
 
 ![Log Out of WordPress](images/logout.png)
 
 *  Go back to the login page (ending in wp-login.php) and enter your user name (which you saw in the Password Reset email) and your new password.
 
-*  If your log in attempt does not work, double check the user name by comparing what you had entered into the login form with the user name from your email.  
-  * __When in doubt, copy and paste the user name from the email directly.__ Make sure you typed the password correctly.  
-  * If you've generated your password through a site and still have that window open, copy and paste the password.
-  * Alternatively, if you're using a password management utility, copy and paste the password.
+2. If your log in attempt does not work, double check the user name by comparing what you had entered into the login form with the user name from your email. __When in doubt, copy and paste the user name from the email directly.__ Make sure you typed the password correctly. If you've generated your password through a site and still have that window open, copy and paste the password. Alternatively, if you're using a password management utility, copy and paste the password.
+
+It is a good idea to be able to reset your password before you need to do so. Here are the steps you can take to make sure you have first-hand experience before you lose an important password.
+
+*   If you haven't already, sign up for the WordPress Support Forums: [https://wordpress.org/support/register.php](https://wordpress.org/support/register.php)
+*   Follow the steps to reset your password as outlined in this lesson.
 
 ### Lesson Wrap Up
 
